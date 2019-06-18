@@ -20,7 +20,7 @@ if(isset($_POST) && !empty($_POST)){
 
             //mail essentials
             $from = $_POST['email'];
-            $to = "ilukat.m@gmail.com";
+            $to = "kalungi.conrad@gmail.com";
             $firstname =$_POST['firstname'];
             $lastname =$_POST['lastname'];
             $subject = ' ILNET training programme';
