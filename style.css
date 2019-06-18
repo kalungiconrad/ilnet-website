@@ -1,0 +1,232 @@
+body {
+
+  
+  overflow-x: hidden;
+  font-family: 'lato', sans-serif;
+  /* color: #505962; */
+}
+
+
+
+/* end layout formatig */
+
+.offset:before{
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -2rem;
+}
+.col-12 {
+  padding: 0%;
+}
+
+.navbar {
+    text-transform: uppercase;
+    padding-top: .2rem;
+    padding-bottom: 0rem;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    
+    /* color: rgb(230, 225, 243); */
+    background: rgba(0, 0, 0, 0.6)!important;
+  }
+  /* #nav a{
+    color: rgb(244, 244, 248);
+    
+  } */
+  .navbar-brand img {
+    height: 2rem;
+  }
+  nav .navbar .navbar-brand .text-primary a, .navbar-brand .text-primary a:hover{
+    letter-spacing: .1rem;
+    color: #035fc0!important;
+    /* color: #007bff; */
+
+  }
+  .navbar-nav li{
+    padding-right: 1rem;
+    letter-spacing: .1rem;
+    padding-top: .2rem;
+    padding-bottom: 0%;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgb(188, 162, 255);
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    
+  } 
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #17a2b8;
+  }/*
+(46, 66, 212, 0.815);
+  }   .far{
+    color: rgb(244, 244, 248);
+  }
+  .far:hover {
+    color: rgba */
+
+
+  /* landing/home page */
+  .home-inner {
+    background-image: url(images/mario-caruso-770233-unsplash.jpg) ;
+    width: 100%;
+    padding: 0%;
+    
+  }
+  .caption {
+    width: 100%;
+    max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+  } 
+  .caption h1 {
+    font-size: 3rem;
+    font-weight: 550;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem  rgb(3, 1, 8);
+    padding-bottom: .8rem;
+  }
+  .caption h3 {
+    font-size: 1.5rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.3rem;
+  }
+  .btn-lg { 
+    border-width: medium;
+    border-radius: 0;
+    padding: .3rem .8rem;
+    font-size: 1.2rem;
+  }
+  .feature .card {
+    padding-left: 2px;
+    margin: 2px;
+    display: flex;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+    font-weight: 650;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+
+  }
+  .heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: rgb(2, 11, 17);
+    margin: 0 auto 2rem;
+  }
+
+  /* services section */
+
+  #services {
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+/* about section */
+#about h1 {
+  margin-top: 3rem; 
+  
+
+  
+}
+#about {
+  margin-top: 0px; 
+  margin-bottom: 0px;
+  padding: 0px;
+  
+}
+footer  {
+  padding-top: 1rem;
+}
+
+.last {padding-bottom: 3rem;}
+/* .card { height: 26rem; } */
+.card img{ height: 15rem;}
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (min-width: 992px) { 
+  #services {
+    disp
+  }
+} */
+
+
+@media screen and (max-width: 992px){
+
+  .card-deck {
+    margin-left: 10%;
+}
+.navbar {
+  text-transform: uppercase;
+  padding-top: .1rem;
+  padding-bottom: .2rem;
+  font-weight: 700;
+  font-size: .7rem;
+  letter-spacing: .1.3rem;
+  align-content: center;
+  padding-left: 8rem;
+  
+  /* color: rgb(230, 225, 243); */
+  /* background: rgba(0, 0, 0, 0.6)!important; */
+}
+/* #nav a{
+  color: rgb(244, 244, 248);
+  
+} */
+.navbar-brand img {
+  height: 2rem;
+  
+}
+.navbar-nav li{
+  padding-right: o.5rem;
+  letter-spacing: .1rem;
+  padding-bottom: .2rem
+}
+
+.container h1 {
+  font-size: 1.5rem;
+}
+.container h4 .display-4{
+  font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.container .lead, .services .lead {
+  font-size: .9rem;
+}
+.container h4 , .services h4{
+  font-size: 1rem;
+}
+}
+.card-deck {
+  font-size: .8rem;
+}
+.services h1 {
+  font-size: 1.5rem;
+}
+
+
+
+@media (min-width: 576px) { 
+  
+  .card-deck {
+    margin-left: 2%;
+  }
+} 
+
